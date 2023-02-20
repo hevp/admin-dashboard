@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/style.css" rel="stylesheet">
+    <title>Administration Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar bg-sky-600">
+            <div class="dashboard text-2xl">
+                <img src="img/view-dashboard.png" />
+                Dashboard
+            </div>
+            <ul class="pages">
+                <li><img src="img/home.png" />Home</li>
+                <li><img src="img/badge-account-horizontal-outline.png" />Profile</li>
+                <li><img src="img/message-settings.png" />Messages</li>
+                <li><img src="img/clock-outline.png" />History</li>
+                <li><img src="img/file-multiple.png" />Tasks</li>
+                <li><img src="img/account-group.png" />Communities</li>
+            </ul>
+            <ul class="other">
+                <li><img src="img/cog-outline.png" />Settings</li>
+                <li><img src="img/help-circle.png" />Support</li>
+                <li><img src="img/shield-check.png" />Privacy</li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="nav p-5 items-center">
+                <div class="search">
+                    <img class="h-6 w-6" src="img/magnify-dark.png">
+                    <div>
+                        <form type="post" action="/search">
+                            <input type="text" class="p-2 rounded-2xl" />
+                        </form>
+                    </div>
+                </div>
+                <ul class="flex items-center justify-center gap-4 list-none">
+                    <li class="notifications"><img class="h-6 w-6" src="img/bell-ring-outline.png" /></li>
+                    <li class="avatar"><img class="h-6 w-6" src="img/avatar.png" /></li>
+                    <li class="name">Morgan Oakley</li>
+                </ul>
+            </div>
+            <div class="user p-5">
+                <div class="flex items-center space-x-4">
+                    <div class="shrink-0">
+                        <img class="h-12 w-12" src="img/avatar.png" />
+                    </div>
+                    <div class="text-xl font-medium inline-block">
+                        <p class="text-sm">Hi there,</p>
+                        Morgan Oakley (@morgan)
+                    </div>
+                </div>
+                <div class="text-white text-xs text-center flex h-10 gap-4">
+                    <button class="bg-blue-500 p-3 w-24 rounded-3xl">New</button>
+                    <button class="bg-blue-500 p-3 w-24 rounded-3xl">Upload</button>
+                    <button class="bg-blue-500 p-3 w-24 rounded-3xl">Share</button>
+                </div>
+            </div>
+            <div class="content p-5">
+                <div>
+                    <h2>Your projects</h2>
+                </div>
+                <div>
+                    <h2>Announcements</h2>
+                </div>
+                <div class="projects">
+                    <div class="project shadow">
+                        <h3>Super Cool Project</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt.</p>
+                        <div class="buttons">
+                            <img src="img/star-plus-outline.png" /><img src="img/eye-arrow-right-outline.png" /><img
+                                src="img/source-fork.png" />
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h3>Less Cool Project</h3>
+                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                            sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem.</p>
+                        <div class="buttons">
+                            <img src="img/star-plus-outline.png" /><img src="img/eye-arrow-right-outline.png" /><img
+                                src="img/source-fork.png" />
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h3>Impossible App</h3>
+                        <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+                            nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea
+                            voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+                            voluptas nulla pariatur?</p>
+                        <div class="buttons">
+                            <img src="img/star-plus-outline.png" /><img src="img/eye-arrow-right-outline.png" /><img
+                                src="img/source-fork.png" />
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h3>Easy Peasy App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="buttons">
+                            <img src="img/star-plus-outline.png" /><img src="img/eye-arrow-right-outline.png" /><img
+                                src="img/source-fork.png" />
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h3>Ad Blocker</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.</p>
+                        <div class="buttons">
+                            <img src="img/star-plus-outline.png" /><img src="img/eye-arrow-right-outline.png" /><img
+                                src="img/source-fork.png" />
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h3>Money Maker</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt.</p>
+                        <div class="buttons">
+                            <img src="img/star-plus-outline.png" /><img src="img/eye-arrow-right-outline.png" /><img
+                                src="img/source-fork.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="contentside">
+                    <div class="announcements shadow">
+                        <div class="announcement">
+                            <h3>Site maintenance</h3>
+                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+                                aliquam quaerat voluptatem.</p>
+                        </div>
+                        <div class="announcement">
+                            <h3>Community Share Day</h3>
+                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+                                aliquam quaerat voluptatem.</p>
+                        </div>
+                        <div class="announcement">
+                            <h3>Updated Privacy Policy</h3>
+                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+                                aliquam quaerat voluptatem.</p>
+                        </div>
+                    </div>
+                    <h2>Trending</h2>
+                    <div class="trending shadow">
+                        <div class="trend space-x-4">
+                            <div class="shrink-0 h-12 w-12">
+                                <img src="img/avatar.png" />
+                            </div>
+                            <div>
+                                <h3>@tegan</h3>
+                                <p>World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="trend space-x-4">
+                            <div class="shrink-0 h-12 w-12">
+                                <img src="img/avatar.png" />
+                            </div>
+                            <div>
+                                <h3>@morgan</h3>
+                                <p>Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="trend space-x-4">
+                            <div class="shrink-0 h-12 w-12">
+                                <img src="img/avatar.png" />
+                            </div>
+                            <div>
+                                <h3>@kendall</h3>
+                                <p>Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class="trend space-x-4">
+                            <div class="shrink-0 h-12 w-12">
+                                <img src="img/avatar.png" />
+                            </div>
+                            <div>
+                                <h3>@alex</h3>
+                                <p>No Traffic Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
